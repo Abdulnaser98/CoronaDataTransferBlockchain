@@ -53,7 +53,7 @@ ___
 
 * <b>  After the project is clones and the config is changed to fit our project , we can now run the blockchain network and deploy the chain code and invoke function in the smart contracts: </b> 
   <ol>
-       <li> cd fabric-project/test-network </li>
+       <li> `cd fabric-project/test-network` </li>
        <li> ./network.sh up createChannel -c mychannel -ca </li>
        <li> ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript </li>
        <li> cd asset-transfer-basic/application-javascript </li>
