@@ -5,28 +5,28 @@
 This git repository documents the code base used in a private blockchain network.
 ___
 #### Abstract
-* <b> Currently the information about covid 19 get transmitted in the following way: </b>  
-
-  * Reporting entities [doctors, laboratories, schools, elderly care centers] send the data to the health department: 
-      * transmission often happens through the fax ,sometimes over phone or mail 
-      * laboratories have to use DEMIS.
-  * The health department then sends the information to the RKI.
-
-* <b> Delays in the transmission happens because of : </b> 
-
-  * high workload of the health departments.
-  * the by law forced transmission time is slow
-  * manual work in the health departments.
+> * <b> Currently the information about covid 19 get transmitted in the following way: </b>  
+>
+>     * Reporting entities [doctors, laboratories, schools, elderly care centers] send the data to the health department: 
+>       * transmission often happens through the fax ,sometimes over phone or mail 
+>       * laboratories have to use DEMIS.
+>     * The health department then sends the information to the RKI.
+>
+> * <b> Delays in the transmission happens because of : </b> 
+>
+>     * high workload of the health departments.
+>     * the by law forced transmission time is slow
+>     * manual work in the health departments.
 
 
 #### Motivation    
 
-* improving the reporting system
-* tested individuals should get the results fast and save
-* there should be an automated and uniform transition of data
-* Every user group should only get access to the relevant information
-* high data security standards should be implemented
-* ==> creation of a data sovereign solution
+> * improving the reporting system
+> * tested individuals should get the results fast and save
+> * there should be an automated and uniform transition of data
+> * Every user group should only get access to the relevant information
+> * high data security standards should be implemented
+> * ==> creation of a data sovereign solution
 
 
 #### Acknowledgements
