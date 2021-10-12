@@ -40,6 +40,7 @@ ___
 * There are two ways to use the hyperledger fabric in regard with this project:
 
   1) You can clone the fabric samples and then:
+   
       * navigate to  fabric-samples\asset-transfer-basic\chaincode-javascript and then replace the lib folder repace it with the one of this project.
       * navigate to  fabric-samples\asset-transfer-basic\application-javascript and replace all files that ends with .js with the files of this project that ends with .js under the same path.
       * navigate to fabric-samples\test-network\configtx and replace the configtx.yaml with the one of this project under the same path.
@@ -51,6 +52,7 @@ ___
 
 
 * After the project is clones and the config is changed to fit our project , we can now run the blockchain network and deploy the chain code and invoke function in the smart contracts:
+* 
     1) cd fabric-project/test-network
     2) ./network.sh up createChannel -c mychannel -ca
     3) ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript
