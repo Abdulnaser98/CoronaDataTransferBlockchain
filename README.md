@@ -27,3 +27,14 @@ ___
 * Every user group should only get access to the relevant information
 * high data security standards should be implemented
 * ==> creation of a data sovereign solution
+
+
+#### Acknowledgements
+>EN: This work was realized as part of the course "Big data praktikum" (summer semester 2021) under the supervision of Herr. Jonas  Kreusch at the University of Leipzig.
+>
+>DE: Diese Arbeit wurde im Rahmen des Kurses "Big data praktikum" (Sommersemester 2021) unter der Leitung vHerr. Jonas  Kreusch at the University of Leipzig realisiert.
+___
+
+#### Use
+
+
