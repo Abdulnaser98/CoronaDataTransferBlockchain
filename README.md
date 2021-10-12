@@ -72,7 +72,7 @@ ___
          * node -e 'require("./readData").read(testedID,laborname,firstname,lastname,birthdate,location)'
          * node -e 'require("./readData").read("d0b76a00-6058-4cb9-b9b2-b07acd445488","testlabor1","Augusti","McCullough","1982-06-03T11:50:19.290Z","Leipzig")'
           
-    *) um den R-Wert berechnen zu können , soll die folgende Anweisung verwendet werden:
+    *  um den R-Wert berechnen zu können , soll die folgende Anweisung verwendet werden:
          * node -e 'require("./calculateR").calculateRValue(gesundheitsamtMitarbeiterName ,date)'
          * node -e 'require("./calculateR").calculateRValue("abdulnaser","2020-01-25")' 
        
