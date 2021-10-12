@@ -17,4 +17,6 @@ ___
   * high workload of the health departments.
   * the by law forced transmission time is slow
   * manual work in the health departments.
-    
+
+
+#### Motivation    
