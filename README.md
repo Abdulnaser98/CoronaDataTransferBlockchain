@@ -5,14 +5,14 @@
 This git repository documents the code base used in a private blockchain network.
 ___
 #### Abstract
-* Currently the information about covid 19 get transmitted in the following way:  
+* <b> Currently the information about covid 19 get transmitted in the following way: </b>  
 
   * Reporting entities [doctors, laboratories, schools, elderly care centers] send the data to the health department: 
       * transmission often happens through the fax ,sometimes over phone or mail 
       * laboratories have to use DEMIS.
   * The health department then sends the information to the RKI.
 
-* Delays in the transmission happens because of :
+* <b> Delays in the transmission happens because of : </b> 
 
   * high workload of the health departments.
   * the by law forced transmission time is slow
@@ -37,7 +37,7 @@ ___
 
 #### Use
 
-* There are two ways to use the hyperledger fabric in regard with this project:
+* <b>  There are two ways to use the hyperledger fabric in regard with this project: </b> 
 
   1) You can clone the fabric samples and then:
    
@@ -51,8 +51,8 @@ ___
   2) The other way is to just clone this repo and everything is already set up.
 
 
-* After the project is clones and the config is changed to fit our project , we can now run the blockchain network and deploy the chain code and invoke function in the smart contracts:
-* 
+* <b>  After the project is clones and the config is changed to fit our project , we can now run the blockchain network and deploy the chain code and invoke function in the smart contracts: </b> 
+  
     1) cd fabric-project/test-network
     2) ./network.sh up createChannel -c mychannel -ca
     3) ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript
@@ -60,7 +60,7 @@ ___
     5) npm install
     6) node app.js
     
-* Now we can call the custom methods we created in the samrt contracts that will on the other hand invoke methods in the chaincode:
+* <b>  Now we can call the custom methods we created in the samrt contracts that will on the other hand invoke methods in the chaincode: </b> 
   
     * Zur Registrierung eines Mitarbeiters an einer Testlabor(Org) wird die folgende Anweisung verwendet:
         * node -e 'require("./registerUser").registerUser (username,org)'
