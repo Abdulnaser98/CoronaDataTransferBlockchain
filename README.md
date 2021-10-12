@@ -5,7 +5,7 @@
 This git repository documents the code base used in a private blockchain network.
 ___
 #### Abstract
-Currently the information about covid 19 get transmitted in the following way: 
+######  Currently the information about covid 19 get transmitted in the following way: 
 
   * Reporting entities [doctors, laboratories, schools, elderly care centers] send the data to the health department: 
       * transmission often happens through the fax ,sometimes over phone or mail 
