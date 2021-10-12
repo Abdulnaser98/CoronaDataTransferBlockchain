@@ -47,6 +47,9 @@ There are two ways to use the hyperledger fabric in regard with this project:
     * navigate to fabric-samples\test-network\docker and replace docker-compose-test-net.yaml with the one of this project under the same path.
 
 
+* The other way is to just clone this repo and everything is already set up.
+
+
 
 
 
