@@ -86,7 +86,11 @@ ___
          * `node -e 'require("./calculateR").calculateRValue("abdulnaser","2020-01-25")'` 
        
  
+___
 
+#### Docker Desktop
+
+Docker Desktop has to be running as a service before running the network up, because the labors and the health department are considered docker containers. 
 
 
 
