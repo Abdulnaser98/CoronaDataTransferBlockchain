@@ -68,20 +68,22 @@ ___
 * <b>  Now we can call the custom methods we created in the samrt contracts that will on the other hand invoke methods in the chaincode: </b> 
   
     * Zur Registrierung eines Mitarbeiters an einer Testlabor(Org) wird die folgende Anweisung verwendet:
-        * node -e 'require("./registerUser").registerUser (username,org)'
-        * node -e 'require("./registerUser").registerUser("abdulnaser","testlabor1")'
+        * `node -e 'require("./registerUser").registerUser (username,org)'`
+        * `node -e 'require("./registerUser").registerUser("abdulnaser","testlabor1")'`
          
     * Um neue Daten in das Netzwerk schreiben zu können , soll die folgende Anweisung verwendet:
-        * node -e 'require("./writeData").write(testlaborMitarbeiter,org,testedid,org,firstname,lastname,birthdate,location,testdate,result)'
-        * node -e 'require("./writeData").write("abdulnaser","testlabor1","1000","testlabor1","buthina","sabra","1995-08-20","leipzig","13-06-2021 13:00","negativ")'
+        *  `node -e 'require("./writeData")  .write(testlaborMitarbeiter,org,testedid,org,firstname,lastname,birthdate,location,testdate,result)'`   
+         
+        * `node -e 'require("./writeData")  .write("abdulnaser","testlabor1","1000","testlabor1","buthina","sabra","1995-08-20","leipzig","13-06-2021 13:00","negativ")'`
          
     * Damit ein Getestete sein Testergebnis ausgeben lässt, soll die folgende Funktion ausgeführt werden:
-         * node -e 'require("./readData").read(testedID,laborname,firstname,lastname,birthdate,location)'
-         * node -e 'require("./readData").read("d0b76a00-6058-4cb9-b9b2-b07acd445488","testlabor1","Augusti","McCullough","1982-06-03T11:50:19.290Z","Leipzig")'
+         * `node -e 'require("./readData").read(testedID,laborname,firstname,lastname,birthdate,location)'`
+           
+         * `node -e 'require("./readData").read("d0b76a00-6058-4cb9-b9b2-b07acd445488","testlabor1","Augusti","McCullough","1982-06-03T11:50:19.290Z","Leipzig")'` 
           
     *  um den R-Wert berechnen zu können , soll die folgende Anweisung verwendet werden:
-         * node -e 'require("./calculateR").calculateRValue(gesundheitsamtMitarbeiterName ,date)'
-         * node -e 'require("./calculateR").calculateRValue("abdulnaser","2020-01-25")' 
+         * `node -e 'require("./calculateR").calculateRValue(gesundheitsamtMitarbeiterName ,date)'`
+         * `node -e 'require("./calculateR").calculateRValue("abdulnaser","2020-01-25")'` 
        
  
 
