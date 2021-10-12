@@ -53,12 +53,17 @@ ___
 
 * <b>  After the project is clones and the config is changed to fit our project , we can now run the blockchain network and deploy the chain code and invoke function in the smart contracts: </b> 
    
-         `cd fabric-project/test-network`  
-         `./network.sh up createChannel -c mychannel -ca`  
-         ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript 
-         cd asset-transfer-basic/application-javascript  
-         npm install  
-         node app.js  
+     `cd fabric-project/test-network`  
+      
+     `./network.sh up createChannel -c mychannel -ca`  
+     
+     `./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript` 
+     
+     `cd asset-transfer-basic/application-javascript`  
+     
+     `npm install`  
+     
+     `node app.js`  
    
 * <b>  Now we can call the custom methods we created in the samrt contracts that will on the other hand invoke methods in the chaincode: </b> 
   
