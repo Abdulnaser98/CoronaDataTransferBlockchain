@@ -1,0 +1,24 @@
+node -e 'require("./writeData").write("florien","testlabor1","1000","testlabor1","buthina","sabra","1995-08-20","leipzig","13-06-2021 13:00","negativ")'
+
+node -e 'require("./checkExistence").check("abdulnaser","testlabor2Wallet")' 
+
+node -e 'require("./registerUser").registerUser("abdulnaser","testlabor1")'
+
+
+node -e 'require("./readData").read("d0b76a00-6058-4cb9-b9b2-b07acd445488","testlabor1","Augusti","McCullough","1982-06-03T11:50:19.290Z","Leipzig")'
+
+
+
+node -e 'require("./calculateR").calculateRValue("abdulnaser","2020-01-25")'
+
+./network.sh up createChannel -ca -s couchdb
+
+port 127.0.0.1:5984
+
+read funcion sicherheismerkmale notieren 
+
+rae
+
+
+winpty docker exec -it peer0.org1.example.com sh
+
