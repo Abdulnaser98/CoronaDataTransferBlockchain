@@ -20,3 +20,10 @@ ___
 
 
 #### Motivation    
+
+* improving the reporting system
+* tested individuals should get the results fast and save
+* there should be an automated and uniform transition of data
+* Every user group should only get access to the relevant information
+* high data security standards should be implemented
+==> creation of a data sovereign solution
