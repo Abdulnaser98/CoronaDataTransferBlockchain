@@ -37,7 +37,7 @@ ___
 
 #### Use
 
-There are two ways to use the hyperledger fabric in regard with this project:
+* There are two ways to use the hyperledger fabric in regard with this project:
 
   * You can clone the fabric samples and then:
       * navigate to  fabric-samples\asset-transfer-basic\chaincode-javascript and then replace the lib folder repace it with the one of this project.
@@ -50,7 +50,7 @@ There are two ways to use the hyperledger fabric in regard with this project:
   * The other way is to just clone this repo and everything is already set up.
 
 
-After the project is clones and the config is changed to fit our project , we can now run the blockchain network.
+* After the project is clones and the config is changed to fit our project , we can now run the blockchain network.
 
 
 
