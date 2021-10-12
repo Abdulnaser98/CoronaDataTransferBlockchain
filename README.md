@@ -52,14 +52,14 @@ ___
 
 
 * <b>  After the project is clones and the config is changed to fit our project , we can now run the blockchain network and deploy the chain code and invoke function in the smart contracts: </b> 
-  
-    1) cd fabric-project/test-network
-    2) ./network.sh up createChannel -c mychannel -ca
-    3) ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript
-    4) cd asset-transfer-basic/application-javascript
-    5) npm install
-    6) node app.js
-    
+    <ol>
+    <li> cd fabric-project/test-network </li>
+    <li> ./network.sh up createChannel -c mychannel -ca </li>
+    <li> ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-javascript/ -ccl javascript </li>
+    <li> cd asset-transfer-basic/application-javascript </li>
+    <li> npm install </li>
+    <li> node app.js </li>
+    </ol>
 * <b>  Now we can call the custom methods we created in the samrt contracts that will on the other hand invoke methods in the chaincode: </b> 
   
     * Zur Registrierung eines Mitarbeiters an einer Testlabor(Org) wird die folgende Anweisung verwendet:
