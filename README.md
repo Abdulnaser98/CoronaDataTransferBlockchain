@@ -41,11 +41,11 @@ ___
 
   1) You can clone the fabric samples and then:
    
-      * navigate to  fabric-samples\asset-transfer-basic\chaincode-javascript and then replace the lib folder repace it with the one of this project.
-      * navigate to  fabric-samples\asset-transfer-basic\application-javascript and replace all files that ends with .js with the files of this project that ends with .js under the same path.
-      * navigate to fabric-samples\test-network\configtx and replace the configtx.yaml with the one of this project under the same path.
-      * navigate to fabric-samples\config and replace core.yaml with the one of this project under the same path.
-      * navigate to fabric-samples\test-network\docker and replace docker-compose-test-net.yaml with the one of this project under the same path.
+      * navigate to  <b> fabric-samples\asset-transfer-basic\chaincode-javascript  </b>  and then replace the lib folder repace it with the one of this project.
+      * navigate to  <b> fabric-samples\asset-transfer-basic\application-javascript  </b>  and replace all files that ends with .js with the files of this project that ends with .js under the same path.
+      * navigate to  <b> fabric-samples\test-network\configtx  </b>  and replace the configtx.yaml with the one of this project under the same path.
+      * navigate to <b> fabric-samples\config  </b>  and replace core.yaml with the one of this project under the same path.
+      * navigate to <b> fabric-samples\test-network\docker  </b>  and replace docker-compose-test-net.yaml with the one of this project under the same path.
 
 
   2) The other way is to just clone this repo and everything is already set up.
